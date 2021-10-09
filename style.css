@@ -1,3 +1,10 @@
+/* Responsive design */
+/* Media queries */
+@media screen {
+  
+}
+
+/* Navbar settings */
 .topnav {
   background-color: slategray;
   padding: 1em;
@@ -8,4 +15,11 @@
   margin: 1em;
   text-align: center;
   
+}
+
+.topnav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
 }
